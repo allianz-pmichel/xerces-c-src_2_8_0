@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="com">
+      <UniqueIdentifier>{fdd52644-90ab-4801-b81d-a4d5b4441512}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="com\Header Files">
+      <UniqueIdentifier>{ea306a31-ba79-409d-96b5-050ef49de87a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="com\Source Files">
+      <UniqueIdentifier>{b250177e-f636-4c3f-94b5-326e31698ab9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="com\Resource Files">
+      <UniqueIdentifier>{5f33697d-1d2f-4fb1-9b4a-3566d70243f9}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\BindStatusCallback.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\IXMLDOMCharacterDataImpl.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\IXMLDOMNodeImpl.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\IXMLDOMTextImpl.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\NodeContainerImpl.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\Resource.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\StdAfx.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\xml4com.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\xml4comCP.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMAttribute.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMCDATASection.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMComment.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMDocument.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMDocumentFragment.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMDocumentType.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMElement.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMEntity.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMEntityReference.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMImplementation.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMNamedNodeMap.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMNodeList.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMNotation.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMParseError.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMProcessingInstruction.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMText.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMUtil.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLDOMXMLDecl.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\com\XMLHTTPRequest.h">
+      <Filter>com\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\xercesc\com\IXMLDOMNodeImpl.inl">
+      <Filter>com\Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\xercesc\com\xml4com.def">
+      <Filter>com\Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\xercesc\com\xmldocument.rgs">
+      <Filter>com\Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\xercesc\com\xmlhttprequest.rgs">
+      <Filter>com\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\BindStatusCallback.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\StdAfx.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\xml4com.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMAttribute.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMDocument.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMDocumentType.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMElement.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMEntity.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMImplementation.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMNamedNodeMap.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMNodeList.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMNotation.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMParseError.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMProcessingInstruction.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMUtil.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLDOMXMLDecl.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\com\XMLHTTPRequest.cpp">
+      <Filter>com\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\..\..\..\..\src\xercesc\com\xml4com.idl">
+      <Filter>com\Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\..\src\xercesc\com\xml4com.rc">
+      <Filter>com\Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

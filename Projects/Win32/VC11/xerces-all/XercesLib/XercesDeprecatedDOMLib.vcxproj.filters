@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dom">
+      <UniqueIdentifier>{c8fb90f4-3f54-4529-b119-4abc5405479b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dom\deprecated">
+      <UniqueIdentifier>{46ea5653-05b9-4cee-9e55-9e876a88f90e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrMapImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrNSImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\CDATASectionImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\CharacterDataImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ChildNode.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\CommentImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DeepNodeListImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentFragmentImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentTypeImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Attr.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CDATASection.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CharacterData.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Comment.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Document.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentFragment.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentType.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMException.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMImplementation.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Element.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Entity.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_EntityReference.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NamedNodeMap.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Node.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeFilter.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeIterator.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeList.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Notation.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_ProcessingInstruction.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Range.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_RangeException.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Text.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_TreeWalker.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_XMLDecl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DomMemDebug.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMParser.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMString.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DStringPool.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementDefinitionImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementNSImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityReferenceImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NamedNodeMapImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIDMap.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIteratorImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeListImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeVector.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NotationImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ParentNode.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ProcessingInstructionImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\RangeImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\RefCountedImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\TextImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\TreeWalkerImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\XMLDeclImpl.cpp">
+      <Filter>dom\deprecated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrMapImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrNSImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\CDATASectionImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\CharacterDataImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ChildNode.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\CommentImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DeepNodeListImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentFragmentImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentTypeImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Attr.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CDATASection.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CharacterData.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Comment.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Document.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentFragment.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentType.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMException.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMImplementation.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Element.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Entity.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_EntityReference.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NamedNodeMap.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Node.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeFilter.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeIterator.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeList.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Notation.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_ProcessingInstruction.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Range.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_RangeException.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Text.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_TreeWalker.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_XMLDecl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DomMemDebug.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMParser.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMString.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMStringImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DStringPool.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementDefinitionImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementNSImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityReferenceImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\MemDebug.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NamedNodeMapImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NameNodeFilter.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIDMap.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIteratorImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeListImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeVector.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NotationImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ParentNode.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ProcessingInstructionImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\RangeImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\RefCountedImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\TextImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\TreeWalkerImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\XMLDeclImpl.hpp">
+      <Filter>dom\deprecated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\xercesc\dom\deprecated\Makefile.in">
+      <Filter>dom\deprecated</Filter>
+    </None>
+  </ItemGroup>
+</Project>

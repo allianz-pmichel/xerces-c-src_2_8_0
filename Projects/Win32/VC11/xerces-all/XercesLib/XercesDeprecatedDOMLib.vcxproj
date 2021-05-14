@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Debug|Win32">
+      <Configuration>Static Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Debug|x64">
+      <Configuration>Static Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Release|Win32">
+      <Configuration>Static Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Release|x64">
+      <Configuration>Static Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2D9921F-C2BE-47EE-B978-8C27A3D5EC9A}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\..\..\..\Build\Win32\vc11\Release\</OutDir>
+    <IntDir>$(OutDir)obj\XercesDeprecatedDOMLib\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\..\..\..\Build\Win32\vc11\Debug\</OutDir>
+    <IntDir>$(OutDir)obj\XercesDeprecatedDOMLib\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'">
+    <OutDir>.\..\..\..\..\..\Build\Win32\vc11\StaticRelease\</OutDir>
+    <IntDir>$(OutDir)obj\XercesDeprecatedDOMLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'">
+    <OutDir>.\..\..\..\..\..\Build\Win32\vc11\StaticDebug\</OutDir>
+    <IntDir>$(OutDir)obj\XercesDeprecatedDOMLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>.\..\..\..\..\..\Build\Win64\vc11\Release\</OutDir>
+    <IntDir>.\..\..\..\..\..\Build\Win64\vc11\Release\obj\XercesDeprecatedDOMLib\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>.\..\..\..\..\..\Build\Win64\vc11\Debug\</OutDir>
+    <IntDir>.\..\..\..\..\..\Build\Win64\vc11\Debug\obj\XercesDeprecatedDOMLib\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'">
+    <OutDir>.\..\..\..\..\..\Build\Win64\vc11\StaticRelease\</OutDir>
+    <IntDir>.\..\..\..\..\..\Build\Win64\vc11\StaticRelease\obj\XercesDeprecatedDOMLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'">
+    <OutDir>.\..\..\..\..\..\Build\Win64\vc11\StaticDebug\</OutDir>
+    <IntDir>.\..\..\..\..\..\Build\Win64\vc11\StaticDebug\obj\XercesDeprecatedDOMLib\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win32\vc11\Release/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ws2_32.lib;xerces-c_2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\..\..\..\Build\Win32\vc11\Release\xerces-depdom_2_8.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\Build\Win32\vc11\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\..\..\..\..\..\Build\Win32\vc11\Release/xerces-depdom_2_8.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)xerces-depdom_2_8.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x12000000</BaseAddress>
+      <ImportLibrary>.\..\..\..\..\..\Build\Win32\vc11\Release/xerces-depdom_2.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win32\vc11\Debug/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ws2_32.lib;xerces-c_2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\..\..\..\Build\Win32\vc11\Debug/xerces-depdom_2_8D.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\Build\Win32\vc11\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\..\..\Build\Win32\vc11\Debug/xerces-depdom_2_8D.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x12000000</BaseAddress>
+      <ImportLibrary>.\..\..\..\..\..\Build\Win32\vc11\Debug/xerces-depdom_2D.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win32\vc11\StaticRelease/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;XML_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\..\..\..\..\..\Build\Win32\vc11\StaticRelease/Xerces-depdom_static_2.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win32\vc11\StaticDebug/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;XML_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\..\..\..\..\..\Build\Win32\vc11\StaticDebug/Xerces-depdom_static_2D.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win64\vc11\Release/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN64;NDEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;xerces-c_2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\..\..\..\Build\Win64\vc11\Release\xerces-depdom_2_8.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\Build\Win64\vc11\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\..\..\..\..\..\Build\Win64\vc11\Release/xerces-depdom_2_8.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)xerces-depdom_2_8.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x12000000</BaseAddress>
+      <ImportLibrary>.\..\..\..\..\..\Build\Win64\vc11\Release/xerces-depdom_2.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win64\vc11\Debug/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN64;_DEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;xerces-c_2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\..\..\..\Build\Win64\vc11\Debug/xerces-depdom_2_8D.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\Build\Win64\vc11\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\..\..\Build\Win64\vc11\Debug/xerces-depdom_2_8D.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x12000000</BaseAddress>
+      <ImportLibrary>.\..\..\..\..\..\Build\Win64\vc11\Debug/xerces-depdom_2D.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win64\vc11\StaticRelease/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN64;NDEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;XML_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\..\..\..\..\..\Build\Win64\vc11\StaticRelease/Xerces-depdom_static_2.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\..\Build\Win64\vc11\StaticDebug/XercesDeprecatedDOMLib.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN64;_DEBUG;_WINDOWS;PLATFORM_WIN32;_CRTDBG_MAP_ALLOC;PROJ_DEPRECATED_DOM;XML_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile>$(IntDir)XercesDeprecatedDOMLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\..\..\..\..\..\Build\Win64\vc11\StaticDebug/Xerces-depdom_static_2D.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrMapImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrNSImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\CDATASectionImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\CharacterDataImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ChildNode.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\CommentImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DeepNodeListImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentFragmentImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentTypeImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Attr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CDATASection.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CharacterData.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Comment.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Document.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentFragment.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentType.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMException.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMImplementation.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Element.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Entity.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_EntityReference.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NamedNodeMap.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Node.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeFilter.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeIterator.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeList.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Notation.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_ProcessingInstruction.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Range.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_RangeException.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Text.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_TreeWalker.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_XMLDecl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DomMemDebug.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMParser.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMString.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\DStringPool.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementDefinitionImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementNSImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityReferenceImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NamedNodeMapImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIDMap.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIteratorImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeListImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeVector.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\NotationImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ParentNode.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\ProcessingInstructionImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\RangeImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\RefCountedImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\TextImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\TreeWalkerImpl.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\xercesc\dom\deprecated\XMLDeclImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrMapImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\AttrNSImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\CDATASectionImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\CharacterDataImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ChildNode.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\CommentImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DeepNodeListImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentFragmentImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DocumentTypeImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Attr.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CDATASection.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_CharacterData.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Comment.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Document.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentFragment.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DocumentType.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMException.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_DOMImplementation.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Element.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Entity.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_EntityReference.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NamedNodeMap.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Node.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeFilter.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeIterator.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_NodeList.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Notation.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_ProcessingInstruction.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Range.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_RangeException.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_Text.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_TreeWalker.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOM_XMLDecl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DomMemDebug.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMParser.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMString.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DOMStringImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\DStringPool.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementDefinitionImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ElementNSImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\EntityReferenceImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\MemDebug.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NamedNodeMapImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NameNodeFilter.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIDMap.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeIteratorImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeListImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NodeVector.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\NotationImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ParentNode.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\ProcessingInstructionImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\RangeImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\RefCountedImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\TextImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\TreeWalkerImpl.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\xercesc\dom\deprecated\XMLDeclImpl.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\xercesc\dom\deprecated\Makefile.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="XercesLib.vcxproj">
+      <Project>{152ce948-f659-4206-a50a-1d2b9658ef96}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
